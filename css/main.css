@@ -28,6 +28,21 @@
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 
+@font-face {
+  font-family: "raleway";
+  src: url(../fonts/raleway/raleway-regular-webfont.ttf);
+}
+
+@font-face {
+  font-family: "raleway-heavy";
+  src: url(../fonts/raleway/raleway-heavy-webfont.ttf);
+}
+
+@font-face {
+  font-family: "raleway-heavy";
+  src: url(../fonts/raleway/raleway-heavy-webfont.ttf);
+}
+
 /** 
 /* 02. =document setup
 /* =================================================================== */
