@@ -322,6 +322,35 @@ img.pull-left {
   color: #12151b !important;
 }
 
+#contact-msg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#contact-msg .twelve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-msg h2 {
+  font-family: "raleway";
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#contact-msg h2 span {
+  color: #ffd900;
+}
+
+#contact-msg p {
+  font-size: 19px;
+}
+
 /* block grids default paddings 
 --------------------------------------------------------------------- */
 .bgrid {
@@ -1981,6 +2010,33 @@ ul#nav li.current a:after {
 }
 
 #call-to-action .action a:hover {
+  background: #fdc501;
+  color: #000000;
+  border: #fdc501;
+}
+
+.action a {
+  font: 15px/60px "raleway-heavy", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  height: 60px;
+  display: block;
+  padding: 0 30px;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  margin: 24px auto 0;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.action a:hover {
   background: #fdc501;
   color: #000000;
   border: #fdc501;
